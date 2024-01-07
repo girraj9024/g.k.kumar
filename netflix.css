@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.br {
+    width: 100%;
+    height: 9px;
+    background-color: #666;
+}
+.man
+{
+    width: 100%;
+    height: 700px;
+    /* background-color: black; */
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.6)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+}
+/* .sman
+{
+    position: relative;
+} */
+.backgroudimg {
+    z-index: -1;
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+}
+
+.backgroudimg img {
+    width: 100%;
+    height: 100vh;
+
+}
+.seml
+{
+    width: 152px;
+    font-size: 16px;
+}
+.smanlogo
+{
+    display: flex;
+    justify-content: space-around;
+}
+.logos
+{
+    width: 100px;
+    height: 100%;
+}
+.logos img
+{
+    width: 70px;
+    height: 30px;
+    display: flex;
+}
+.logos img {
+    width: 141px;
+    height: 62px;
+    margin-left: 70px;
+    background: none;
+    margin-bottom: 80px;
+}
+.leg.opn {
+    background-color: red;
+    width: 185px;
+    height: 38px;
+    margin-top: 9px;
+    border-radius: 10px;
+}
+
+
+.rech {
+    font-size: 26px;
+    width: 963px;
+    margin: auto;
+    height: 400px;
+    /* background-color: black; */
+    padding: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.rech h6 {
+    padding-top: 15px;
+}
+
+/* .email
+{
+
+} */
+.email input .em {
+    padding: 89px;
+}
+.email input[type="email"] {
+    width: 361px;
+    height: 52px;
+    margin-top: 20px;
+    background-color: #181616;
+    border: none;
+    padding: 0px 0px 0px 12px;
+    font-size: 18px;
+}
+
+button {
+    width: 123px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+.enj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.yourtv {
+    width: 690px;
+    height: 301px;
+    /* background-color: red; */
+    padding: 16px 82px 0px 31px;
+    margin: 245px 0px 200px 62px;
+}
+
+.yourtv h1 {
+    font-size: 56px;
+    color: white;
+    font-weight: 900;
+    width: 466px;
+}
+
+.yourtv h3 {
+    color: #fff;
+    margin-top: 11px;
+    font-size: 25px;
+}
+
+.tvimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tvimg img {
+    width: 407px;
+    height: 307px;
+    margin-top: 200px;
+    margin-left: 297px;
+    margin-bottom: 200px;
+}
+
+.tvimg video {
+    position: absolute;
+    top: 264px;
+    right: 170px;
+    width: 307px;
+    height: 166px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.girlpo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.girlimg {
+    display: flex;
+    position: absolute;
+    top: -159px;
+    left: 164px;
+    width: 311px;
+    height: 134px;
+    background-color: black;
+    border-radius: 10px;
+    border: #cbc9c9 solid 2px;
+}
+
+.giimg {
+    width: 40%;
+    height: 100%;
+}
+
+.giimg img {
+    width: 88px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.stara {
+    height: 124px;
+    width: 194px;
+    background-color: black;
+    margin: 7px;
+}
+
+.stara h5 {
+    font-size: 22px;
+    color: white;
+    margin-top: 22px;
+    padding: 3px;
+}
+
+.stara p {
+    color: blue;
+    font-size: 17px;
+}
+
+#dow {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.dow {
+    width: 715px;
+    height: 480px;
+    background-color: black;
+    color: wheat;
+}
+
+.dow h1 {
+    font-size: 60px;
+    margin-left: 147px;
+    margin-top: 61px;
+    margin-bottom: 10px;
+}
+
+.dow h2 {
+    margin-left: 139px;
+    margin-right: 31px;
+}
+
+.mgs {
+    display: flex;
+    height: 480px;
+    padding-top: 86px;
+}
+
+
+.com {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+#watch {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.watch {
+    width: 1700px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+}
+
+.watch h1 {
+    font-size: 65px;
+    margin: 123px 10px 10px 170px;
+    font-weight: 900;
+}
+
+.watch h3 {
+    font-size: 24px;
+    margin: 10px 132px 0px 160px;
+}
+
+.watchimg {
+    width: 1588px;
+    height: 500px;
+    background-color: black;
+    padding: 65px 0px 0px 0px;
+}
+
+.watchimg img {
+    width: 560px;
+    height: 389px;
+}
+
+
+
+
+
+
+#create {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.create {
+    width: 17000px;
+    height: 500px;
+    background-color: black;
+    color: #fff;
+}
+
+.create h3 {
+    font-size: 24px;
+    margin: 10px 151px 0px 34px;
+}
+
+.create h1 {
+    font-size: 65px;
+    margin: 110px 101px 0px 34px;
+}
+
+.chiimg img {
+    width: 560px;
+    height: 389px;
+}
+
+.chiimg {
+    width: 1588px;
+    height: 500px;
+    background-color: black;
+    padding: 65px 0px 0px 110px;
+}
+
+
+
+
+
+
+#frequently {
+    width: 100%;
+    height: 988px;
+    background-color: black;
+    color: white;
+}
+.frequ {
+    text-align: center;
+}
+
+.frequ h1 {
+    font-size: 49px;
+    padding-top: 70px;
+    font-weight: 900;
+}
+
+.snet {
+    text-align: start;
+    background-color: #2d2d2d;
+    width: 920px;
+    height: 59px;
+    font-size: 22px;
+    padding-left: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 35px 25px;
+}
+
+.SNnet {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 38px;
+}
+
+.snet button {
+    background-color: rgb(134, 134, 159);
+}
+
+.icon {
+    /* color: #a45050; */
+    /* text-align: end; */
+    display: flex;
+}
+.reade {
+    justify-content: center;
+    text-align: center;
+    margin-top: 64px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.email {
+    justify-content: center;
+    display: flex;
+}
+
+#questions
+{
+    width: 100%;
+    height: 420px;
+    background-color: black;
+}
+.mman
+{
+    width: 900px;
+    height: 420px;
+    background-color: black;
+    margin: auto;
+}
+.qua {
+    padding: 49px 0px 0px 0px;
+    color: white;
+    font-size: 19px;
+}
+.qua a
+{
+    color: #fff;
+}
+/* .last {
+    margin: 18px 10px;
+    padding-top: 4px;
+}
+.last a {
+    margin: 70px;
+} */
+.last {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 21px;
+}
+.last a
+{
+    color: white;
+    margin-top: 15px;
+    /* text-decoration: none; */
+}
+.last li {
+    display: grid;
+    /* display: flex; */
+    width: 270px;
+}
+.last ul
+{
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.leg {
+    margin-top: -113px;
+    margin-left: 213px;
+    width: 120px;
+}
+.leg p
+{
+    color: #fff;
+    margin-top: 10px;
+}
